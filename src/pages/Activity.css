@@ -1,0 +1,85 @@
+.activity-container {
+  padding: 2rem;
+  background-color: #f5f9ff;
+  min-height: 100vh;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.activity-title {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 1.5rem;
+  color: #2a2a72;
+}
+
+.profile-section,
+.workout-section,
+.hydration-section {
+  background-color: #fff;
+  padding: 1.5rem;
+  margin-bottom: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+}
+
+.profile-section h2,
+.workout-section h2,
+.hydration-section h2 {
+  margin-bottom: 1rem;
+  color: #444;
+  border-bottom: 2px solid #ccc;
+  padding-bottom: 0.5rem;
+}
+
+.profile-details p,
+.workout-entry,
+.hydration-advice {
+  margin-bottom: 0.8rem;
+  font-size: 1rem;
+  color: #333;
+}
+
+.workout-entry strong {
+  color: #1a73e8;
+}
+
+.hydration-advice.bad {
+  color: #e74c3c;
+  font-weight: bold;
+}
+
+.hydration-advice.good {
+  color: #2ecc71;
+  font-weight: bold;
+}
+
+.update-profile-btn {
+  margin-top: 1rem;
+  display: inline-block;
+  padding: 0.6rem 1.2rem;
+  background-color: #1a73e8;
+  color: white;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 500;
+  transition: background-color 0.3s ease;
+}
+
+.update-profile-btn:hover {
+  background-color: #155ac1;
+}
+
+@media (max-width: 768px) {
+  .activity-container {
+    padding: 1rem;
+  }
+
+  .activity-title {
+    font-size: 1.5rem;
+  }
+
+  .update-profile-btn {
+    width: 100%;
+    text-align: center;
+  }
+}

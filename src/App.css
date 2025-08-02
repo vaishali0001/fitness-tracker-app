@@ -1,0 +1,30 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(to right, #a1c4fd, #c2e9fb);
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #333;
+}
+.profile-container {
+  padding: 30px;
+  text-align: center;
+  background-color: #f7f7f7;
+  border-radius: 10px;
+  max-width: 600px;
+  margin: auto;
+}
+
+.profile-list {
+  list-style: none;
+  padding: 0;
+  text-align: left;
+  font-size: 18px;
+}
+
+.profile-list li {
+  padding: 8px 0;
+}
